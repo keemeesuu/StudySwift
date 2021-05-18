@@ -13,6 +13,11 @@
 		D27E2AC826535F2400295E80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27E2AC726535F2400295E80 /* Preview Assets.xcassets */; };
 		D27E2AD326535F2500295E80 /* StudySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E2AD226535F2500295E80 /* StudySwiftTests.swift */; };
 		D27E2ADE26535F2500295E80 /* StudySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E2ADD26535F2500295E80 /* StudySwiftUITests.swift */; };
+		D27E2AEF2653677100295E80 /* MyVstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E2AEE2653677100295E80 /* MyVstackView.swift */; };
+		D27E2AF42653681500295E80 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E2AF32653681500295E80 /* Test.swift */; };
+		D27E2AF52653681500295E80 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E2AF32653681500295E80 /* Test.swift */; };
+		D27E2B0826537A7A00295E80 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E2B0726537A7A00295E80 /* MyTextView.swift */; };
+		D27E2B0D2653B1D300295E80 /* MyWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E2B0C2653B1D300295E80 /* MyWebview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,10 @@
 		D27E2AD926535F2500295E80 /* StudySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27E2ADD26535F2500295E80 /* StudySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUITests.swift; sourceTree = "<group>"; };
 		D27E2ADF26535F2500295E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27E2AEE2653677100295E80 /* MyVstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVstackView.swift; sourceTree = "<group>"; };
+		D27E2AF32653681500295E80 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		D27E2B0726537A7A00295E80 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
+		D27E2B0C2653B1D300295E80 /* MyWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +109,10 @@
 				D27E2AC426535F2400295E80 /* Assets.xcassets */,
 				D27E2AC926535F2400295E80 /* Info.plist */,
 				D27E2AC626535F2400295E80 /* Preview Content */,
+				D27E2AEE2653677100295E80 /* MyVstackView.swift */,
+				D27E2AF32653681500295E80 /* Test.swift */,
+				D27E2B0726537A7A00295E80 /* MyTextView.swift */,
+				D27E2B0C2653B1D300295E80 /* MyWebview.swift */,
 			);
 			path = StudySwift;
 			sourceTree = "<group>";
@@ -260,7 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D27E2AC326535F2200295E80 /* ContentView.swift in Sources */,
+				D27E2B0D2653B1D300295E80 /* MyWebview.swift in Sources */,
+				D27E2AF42653681500295E80 /* Test.swift in Sources */,
 				D27E2AC126535F2200295E80 /* StudySwiftApp.swift in Sources */,
+				D27E2AEF2653677100295E80 /* MyVstackView.swift in Sources */,
+				D27E2B0826537A7A00295E80 /* MyTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D27E2ADE26535F2500295E80 /* StudySwiftUITests.swift in Sources */,
+				D27E2AF52653681500295E80 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
